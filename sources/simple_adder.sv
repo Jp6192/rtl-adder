@@ -4,7 +4,5 @@ module simple_adder (
     input wire [7:0] b,
     output reg [7:0] sum
 );
-    always @(posedge clk) begin
-        sum <= a + b;  // Complete implementation
-    end
+    // TODO: Implement addition logic
 endmodule
